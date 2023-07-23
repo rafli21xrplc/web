@@ -34,6 +34,7 @@
     appearance: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -185,6 +186,7 @@ nav button {
     border-radius: var(--card-border-radius-5);
     border: 1rem solid var(--color-gray-900);
     overflow: hidden;
+    width: 100%;
     margin-bottom: 1.6rem;
 }
 
@@ -208,7 +210,6 @@ nav button {
 
 .featured {
     margin-top: 8rem;
-    
 }
 
 .featured__container {
@@ -223,7 +224,7 @@ nav button {
 
 .posts__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 5rem;
     margin-bottom: 5rem;
 }
@@ -323,7 +324,8 @@ footer ul a:hover {
 }
 
 .search__bar {
-    margin-top: 7rem;
+    margin-top: 10rem;
+    margin: auto;
 }
 
 .search__bar-container {
